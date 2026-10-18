@@ -8,8 +8,7 @@
 ## Chicago Crime Dataset 
 
 This repository contains the dataset of the crimes that occurred in Chicago throughout **2020 - 2022**. The data includes details on type of arrest,coordinates of crime that has occurred, beat teams' districts and whether any arrests were made.
-
-It serves as an excellent resource for exploratory data analysis (EDA) and missing data imputation practice.
+Insights derived from the exploratory analysis will inform the development of a predictive model aimed at forecasting future crime levels at the district or community-area level, supporting evidence-based public safety planning.
 
 <!-- <img width="1317" height="742" alt="image" src="https://github.com/user-attachments/assets/fd2d0b2f-b7d0-4953-8c8b-868132c2485a" /> -->
 
@@ -21,12 +20,11 @@ What factors are associated with the frequency and distribution of crime in Chic
 2. Temporal Patterns — How do crime frequencies vary across time dimensions (day of week, month, season), and are there identifiable cyclical patterns that persist year-over-year?
 3. Arrest & Clearance Rates — What crime types and locations are associated with lower arrest rates, and does arrest likelihood vary significantly by district or time period?
 4. Crime Type Dynamics — How has the composition of crime types (violent vs. property vs. other) shifted between 2020 and 2022, and which categories show the most volatility?
-5. Predictive Modelling — To what extent can historical crime patterns (type, location, time, prior frequency) be used to forecast near-future crime levels at a district or community-area level?
+5. Domestic & Location Risk — How do domestic-flagged incidents and location descriptors (street, residence, commercial) vary across community areas, and did the pandemic year of 2020 meaningfully alter these distributions?
+
+## Project Phases
+- Phase 1: Exploratory Data Analysis
+- Phase 2: Predictive Modelling
 
 ## Tools 
-
 - Python - Data Cleaning, Exploratory Data Analysis, Visualisation and Predictive Modelling
-
-## Project Status
-
-In progress.
